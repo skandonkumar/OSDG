@@ -1,0 +1,17 @@
+#nav-link{
+    color: black;
+    font-size: small;
+    letter-spacing: 1px;
+}
+
+#nav-item{
+    display: inline; 
+    padding-right: 0.9em;
+    padding-left: 0.9em;
+    border-right: 1px solid black;
+    font-family: Papyrus;
+}
+
+#nav-item-last{
+    border-right: none
+}

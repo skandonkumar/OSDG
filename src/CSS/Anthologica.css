@@ -1,0 +1,181 @@
+#page-container{
+    padding : 0px;
+    background-color: rgb(222, 225, 230);
+}
+
+
+/*Section 1 styling */
+.Section1 {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#Anthalogica-Section1-left{
+    flex: 50%;
+    max-width: 50%;
+}
+
+#Anthalogica-Section1-right{
+    flex: 50%;
+    max-width: 50%;
+}
+
+#anthologica-book-cover {
+    max-width: 50vw;
+    float: right;
+} 
+
+#anthologica-book-cover-text{
+    max-width: 50vw;
+    float: right;
+}
+
+@media only screen and (max-width : 1000px) {
+    .Section1{
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: auto;
+    }
+
+    #anthologica-book-cover {
+        max-width: unset;
+    }
+
+
+    #Anthalogica-Section1-left {
+        margin: auto;
+        max-width: unset;
+    }
+
+    #Anthalogica-Section1-right{
+        margin: auto;
+        max-width: unset;
+    }
+
+    #anthologica-book-cover-text{
+        max-width: unset;
+    }
+}
+
+
+
+
+/*Section 2 Styling */
+.Section2{
+    background-color: white;
+    width: 100vw;
+    height: auto;
+    margin: auto;
+}
+
+#Anthalogica-Section2-pic{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 20px;
+}
+
+
+
+
+/*Section 3 styling */
+.Section3{
+    background-color: white;
+    margin-top: 30px;
+    width: 85vw;
+    margin: auto;
+}
+
+#anthologica-book-text{
+    background-color: white;
+    text-align: justify;
+    font-family : "adobe-caslon-pro";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.6em;
+    color: #000;
+    padding-top: 100px;
+    margin: auto;
+    width : 70%;
+}
+
+
+
+
+
+/*Section 4 styling */
+.Section4{
+    background-color: white;
+    margin: auto;
+    width: 85vw;
+    align-items: center;
+    justify-content: center;
+}
+
+#section4-video{
+    margin: auto;
+    width : 85vw;
+}
+
+
+
+/*Section 5 styling */
+.Section5{
+    background-color: white;
+    margin: auto;
+    width: 85vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#anthalogica-interview-header{
+    background-color: white;
+    width: 100%;
+}
+
+#anthologica-interview-text{
+    background-color: white;
+    text-align: justify;
+    font-family: "adobe-caslon-pro";
+    padding-top: 30px;
+    margin: auto;
+    width : 70%;
+}
+
+
+
+
+
+/*Section 6 styling */
+.Section6{
+    background-color: white;
+    margin: auto;
+    width: 85vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+
+
+
+/*Section 7 styling */
+.Section7{
+    background-color: white;
+    margin: auto;
+    width: 85vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

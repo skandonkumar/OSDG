@@ -1,0 +1,70 @@
+.Logo-container{
+    width: 100vw;
+    height : auto;
+    margin: auto;
+    background-color: white;
+    padding-bottom: 30px;
+    position : relative;
+}
+
+#main-header{
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Papyrus';
+    font-size: 3.3vw;
+    margin: auto;
+    font-weight: bolder;
+    letter-spacing: 15px;
+}
+
+.redSquare{
+    height: auto;
+    width : auto;
+    max-width: 20vw;
+    max-height: 20vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    
+}
+
+#artist-portfolio{
+    text-align: center;
+    font-family: 'Papyrus';
+    font-weight: bolder;
+    font-size: 2vw;
+    letter-spacing: 15px;
+    padding-top: 20px;
+}
+
+#greg-heading{
+    text-align: center;
+    font-family: 'Papyrus';
+    font-weight: bolder;
+    font-size: 1.5vw;
+    padding-top: 20px;
+    letter-spacing: 5px;
+}
+
+#Om{
+    text-align: center;
+    font-family: 'Papyrus';
+    font-weight: bolder;
+    padding-top: 20px;
+    font-size: 1.5vw;
+    letter-spacing: 5px;
+}
+
+#crown{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 1.5vw;
+    /* font-weight: bold; */
+}
+
+#agent :hover{
+    color: cornflowerblue; 
+    cursor: pointer;
+    text-decoration: underline;
+}

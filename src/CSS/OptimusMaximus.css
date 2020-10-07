@@ -1,0 +1,101 @@
+
+/*Section 1 Styling */
+#OptimusMaximus-Section1-left{
+    flex: 50%;
+    max-width: 50%;
+}
+
+#OptimusMaximus-Section1-right{
+    flex: 50%;
+    max-width: 50%;
+}
+
+#OptimusMaximus-book-cover {
+    max-width: 50vw;
+    float: right;
+} 
+
+#OptimusMaximus-book-cover-text{
+    max-width: 50vw;
+    float: right;
+}
+
+@media only screen and (max-width : 1000px) {
+    .Section1{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: auto;
+    }
+
+    #OptimusMaximus-Section1-left{
+        margin: auto;
+        max-width: unset;
+    }
+
+    #OptimusMaximus-Section1-right{
+        margin: auto;
+        max-width: unset;
+    }
+
+
+    #OptimusMaximus-book-cover {
+        max-width: unset;
+    }
+
+
+    #OptimusMaximus-book-cover-text{
+        max-width: unset;
+    }
+}
+
+
+
+/*Section 2 Styling */
+#OptimusMaximus-Section2-pic{
+    background-color: white;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+
+
+
+/*Section 3 styling */
+#OptimusMaximus-book-text{
+    background-color: white;
+    text-align: justify;
+    font-family: "moms typewriter";
+    font-size: 15px;
+    color: #000;
+    margin: auto;
+    width : 70%;
+}
+
+#OptimusMaximus-book-text p{
+    font-size: 16px;
+}
+
+
+#OptimusMaximus-book-text-Type2{
+    background-color: white;
+    text-align: justify;
+    font-family : "adobe-caslon-pro";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.6em;
+    color: #000;
+    padding-top: 100px;
+    margin: auto;
+    width : 70%;
+}
+
+.OptimusMaximus-Kid-Pic{
+    background-color: white;
+    margin: auto;
+    width : 7.5in;
+}
+
+
+ 

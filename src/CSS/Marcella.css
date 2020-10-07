@@ -1,0 +1,78 @@
+/*Section 1 Styling */
+#Marcella-Section1-left{
+    flex: 50%;
+    max-width: 50%;
+}
+
+#Marcella-Section1-right{
+    flex: 50%;
+    max-width: 50%;
+}
+
+#Marcella-book-cover {
+    max-width: 50vw;
+    float: right;
+} 
+
+#Marcella-book-cover-text{
+    max-width: 50vw;
+    float: right;
+}
+
+@media only screen and (max-width : 1000px) {
+    .Section1{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: auto;
+    }
+
+    #Marcella-Section1-left{
+        margin: auto;
+        max-width: unset;
+    }
+
+    #Marcella-Section1-right{
+        margin: auto;
+        max-width: unset;
+    }
+
+
+    #Marcella-book-cover {
+        max-width: unset;
+        height: unset;
+    }
+
+    #Marcella-book-cover-text{
+        max-width: unset;
+    }
+}
+
+
+
+/*Section 2 Styling */
+#marcella-Section2-pic{
+    background-color: white;
+    width: 100%;
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+
+
+
+/*Section 3 styling */
+#Marcella-book-text{
+    background-color: white;
+    text-align: justify;
+    font-family : "adobe-caslon-pro";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.6em;
+    color: #000;
+    margin: auto;
+    width : 70%;
+}
